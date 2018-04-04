@@ -146,10 +146,13 @@
 				TargetAttributes = {
 					F9D5555F1E0C3249004211E6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7J77685L3X;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					F9D555731E0C324A004211E6 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F9D5555F1E0C3249004211E6;
 					};
@@ -337,11 +340,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J77685L3X;
 				INFOPLIST_FILE = scrollViewAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.scrollViewAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -349,11 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J77685L3X;
 				INFOPLIST_FILE = scrollViewAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.scrollViewAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -366,7 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.scrollViewAutoLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollViewAutoLayout.app/scrollViewAutoLayout";
 			};
 			name = Debug;
@@ -380,7 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.scrollViewAutoLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollViewAutoLayout.app/scrollViewAutoLayout";
 			};
 			name = Release;
